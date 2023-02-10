@@ -7,3 +7,6 @@ pre {
     width: 25%;
     margin: 5px 5px 5px 5px;
 }
+.photo:hover {
+    transform:scale(150%)
+}
