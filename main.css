@@ -7,6 +7,13 @@ pre {
     width: 25%;
     margin: 5px 5px 5px 5px;
 }
+
+.photo {
+    transition: scale 1s;
+    transition: rotate 0.5s;
+}
+
 .photo:hover {
-    transform:scale(150%)
+    scale: 150%;
+    rotate: 360deg;
 }
