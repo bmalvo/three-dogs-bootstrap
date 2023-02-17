@@ -1,5 +1,5 @@
 body {
-    background-image: url(/docs/assets/images/cygany-mapa.jpg);
+    background-image: url(./images/cygany-mapa.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -45,8 +45,3 @@ a {
     color: aliceblue;
     font-size: 1.5em;
 }
-
----
----
- {
-@import "{{ Beautifull }}";}
