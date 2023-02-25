@@ -42,7 +42,7 @@ a {
 }
 
 .intro {
-    color: aliceblue;
+    color: rgb(250, 253, 255);
     font-size: 1.5em;
 }
 .glass {
@@ -52,4 +52,10 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(2.3px);
 -webkit-backdrop-filter: blur(2.3px);
 border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.card-dog {
+    width:85%; 
+    max-width: 500px; 
+    margin: auto;
 }
