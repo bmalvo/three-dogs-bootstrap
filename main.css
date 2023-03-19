@@ -59,22 +59,52 @@ border: 1px solid rgba(255, 255, 255, 1);
 /* z-index: 3; */
 }
 
+.glass-sheep {
+    background:     rgba(0, 118, 182,0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.3px);
+-webkit-backdrop-filter: blur(2.3px);
+border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.glass-biscuit {
+    background:    rgba(243, 67, 54,0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.3px);
+-webkit-backdrop-filter: blur(2.3px);
+border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.glass-chocolate {
+    background:    rgba(139, 194, 74,0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.3px);
+-webkit-backdrop-filter: blur(2.3px);
+border: 1px solid rgba(255, 255, 255, 1);
+}
+
 .sheep-font {
-    color: #0076b6;
-    -webkit-text-stroke: 0.3px black;
+    color: rgb(17, 17, 17);
+    /* -webkit-text-stroke: 0.3px black; */
     font-size: 1.1em;
+    padding-left: 5px;
 }
 
 .biscuit-font {
-    color: #f34336;
-    -webkit-text-stroke: 0.3px black;
+    color: rgb(17, 17, 17);
+    /* -webkit-text-stroke: 0.3px black; */
     font-size: 1.1em;
+    padding-left: 5px;
 }
 
 .chocolate-font {
-    color: #8bc24a;
-    -webkit-text-stroke: 0.3px black;
+    color: rgb(17, 17, 17);
+    /* -webkit-text-stroke: 0.3px black; */
     font-size: 1.1em;
+    padding-left: 5px;
 }
 
 .cloud, .cloud_two{
