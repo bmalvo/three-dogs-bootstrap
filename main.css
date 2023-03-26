@@ -16,6 +16,7 @@ h2 {
     
 }
 
+
 img:hover, img:active {
     transform: translateY(-5px);
     box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
@@ -34,9 +35,37 @@ a {
     display: inline-block;
 }
 
+.full-img{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.full-img img{
+    width: 90%;
+    max-width: 30em;
+}
+
+.full-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
 .photo {
     transition: scale 1s;
     transition: rotate 0.5s;
+    cursor: pointer;
 }
 
 .photo:hover, .photo:active {
