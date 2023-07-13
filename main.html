@@ -9,8 +9,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link href="./main.css" rel="stylesheet" />
@@ -18,54 +18,55 @@
 
   <body>
 
-    <!-- Navbar -->
+    <!-- Navbar container -->
     <nav>
       <div
         class="container p-3 bg-dark text-white"
         style="max-width: 100%"
       >
-      <div class="row">
-      <div class="col-6">
-        <h1>Szczęśliwe Cygańskie psy</h1>
-      </div>
-      <div class="col-6">
-        <p>
-          Wiejskie powietrze, pola, lasy- czy potrzeba czegoś więcej, by
-          pomerdać ogonkiem?
-        </p>
-      </div>
-      </div>
-
-        <div class="btn-group btn-group-sm">
-          <a href="./main.html" class="btn btn-outline-warning active">Home</a>
-          <a href="#sheep-solo" class="btn btn-outline-warning">Owca</a>
-          <a href="#biscuit-solo" class="btn btn-outline-warning">Biszkopt</a>
-          <a href="#chocolate-solo" class="btn btn-outline-warning"
-
-            >Czekolada</a
-          >
-          <a href="#galeria" class="btn btn-outline-warning">Galeria</a>
+        <div class="row">
+          <div class="col-6">
+            <h1>Szczęśliwe Cygańskie psy</h1>
+          </div>
+          <div class="col-6">
+            <p> <!-- empty col --> </p>
+          </div>
         </div>
+        <div class="row">
+          <div class="btn-group btn-group-sm col-5">
+            <a href="./main.html" class="btn btn-outline-warning active">
+              Home</a>
+            <a href="#sheep-solo" class="btn btn-outline-warning">Owca</a>
+            <a href="#biscuit-solo" class="btn btn-outline-warning">
+              Biszkopt</a>
+            <a href="#chocolate-solo" class="btn btn-outline-warning">Czekolada</a>
+            <a href="#galeria" class="btn btn-outline-warning">Galeria</a>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-md-6 col-sm-12">
+            <p>Wiejskie powietrze, pola, lasy- czy potrzeba czegoś więcej, by
+               pomerdać ogonkiem?</p>
+        </div>
+      </div>
       </div>
     </nav>
+
+    <!-- End navbar container -->
+
+    <!-- Intro container -->
     <article>
-      <!-- Intro -->
-      <section class="intro">
-        <div
-          class="col-sm-6 col-lg-9 m-auto text-center glass"
-          style="max-width: 85%"
-        >
-          <span
-            >Za siedmioma powiatami, za siedmioma gminami... Pośród urokliwego i
-            malowniczego województwa Pomorskiego w najpiękniejszej (zdaniem
-            wielu) polskiej wsi- Cygany mieszkają psy. Mieszka wiele psów, ale
-            dzisiaj mowa o trójce rasowych kundelków pragnących podzielić się z
-            wami odrobiną swego radosnego psiego życia.
-          </span>
+      <section class="intro container">
+        <div class="row">
+          <div class="col-11 mx-auto mt-2 text-center glass" ">
+            <span> Za siedmioma powiatami, za siedmioma gminami..            Pośród urokliwego i malowniczego województwa Pomorskiego w najpiękniejszej (zdaniem wielu) polskiej wsi- Cygany mieszkają psy. Mieszka wiele psów, ale dzisiaj mowa o trójce rasowych kundelków pragnących podzielić się z wami odrobiną swego radosnego psiego życia.
+            </span>
+          </div>
         </div>
       </section>
-      <!-- alert message -->
-      <div class="alert alert-info alert-dismissible fade show">
+    <!-- End intro container -->
+
+    <!-- alert message -->
+      <div class="alert alert-info alert-dismissible fade show text-center">
         <button
           type="button"
           class="btn-close"
@@ -73,43 +74,42 @@
         ></button>
         <strong>Hej!</strong> Kliknij w psa, by poznać go bliżej :)
       </div>
+
       <!-- Dogies logos -->
-      <div class="row" style="margin-top: 75px;">
-        <div class="col p-1 m-1 text-body text-center">
-          <h2 class="">Owca</h2>
-          <a href=#sheep-solo>
-            <img
+      <!-- Dogs container -->
+      <div class="container">
+        <div class="row mt-4">
+          <div class="col p-1 m-1 text-center">
+            <h2>Owca</h2>
+            <a href=#sheep-solo>
+              <img
               src="./images/sheep_logo.jpeg"
-              class="img-thumbnail img-fluid rounded-circle rotate"
-              alt="black dog on the ground"
-              style="width: 250px; height: auto; transform: none"
-            />
-          </a>
-        </div>
-        <div class="col p-1 m-1 text-body text-center">
-          <h2>Biszkopt</h2>
-          <a href=#biscuit-solo>
-            <img
+              class="img-thumbnail rounded-circle rotate"
+              alt="black dog on the ground"/>
+            </a>
+          </div>
+          <div class="col p-1 m-1 text-center">
+            <h2>Biszkopt</h2>
+            <a href=#biscuit-solo>
+              <img
               src="./images/biscuit_logo.jpeg"
-              class="img-thumbnail img-fluid rounded-circle rotate"
-              alt="biscuit-color
-          dog on the ground with snow"
-              style="width: 250px; height: auto; transform: none"
-            />
-          </a>
-        </div>
-        <div class="col p-1 m-1 text-body text-center">
-          <h2>Czekolada</h2>
-          <a href=#chocolate-solo>
-            <img
-              src="./images/chocolate_logo.jpeg"
-              class="img-thumbnail img-fluid rounded-circle rotate"
+              class="img-thumbnail rounded-circle rotate"
+              alt="biscuit-color dog on the ground with snow"/>
+            </a>
+          </div>
+          <div class="col p-1 m-1 text-center">
+            <h2>Czekolada</h2>
+            <a href=#chocolate-solo>
+              <img
+              class="img-thumbnail rounded-circle rotate"
               alt="darg dog streching on the ground"
-              style="width: 250px; height: auto; transform: none"
-            />
-          </a>
+              src="./images/chocolate_logo.jpeg"/>
+            </a>
+          </div>
         </div>
       </div>
+      <!-- End Dogs container -->
+      
       <!-- clouds -->
       <div class="cloud"></div>
       <div class="cloud_two"></div>

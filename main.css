@@ -1,7 +1,5 @@
 
 body {
-    /* background-image: url(./images/cygany-mapa.jpg); */
-    /* background-image: url(".cloud"), url(".cloud_two"); */
     background: #2EB5E5;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,16 +9,9 @@ body {
 
 h2 {
     color: aliceblue;
-    text-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
-    
-    
+    text-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);    
 }
 
-
-img:hover, img:active {
-    transform: translateY(-5px);
-    box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
-}
 
 #next, #prev, #close {
     color: #2EB5E5;
@@ -101,39 +92,38 @@ a {
 }
 .glass {
     background: rgba(255, 255, 255, 0.06);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(2.3px);
--webkit-backdrop-filter: blur(2.3px);
-border: 1px solid rgba(255, 255, 255, 1);
-/* z-index: 3; */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.3px);
+    -webkit-backdrop-filter: blur(2.3px); /* webkit for safari browser */
+    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .glass-sheep {
-    background:     rgba(0, 118, 182,0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(2.3px);
--webkit-backdrop-filter: blur(2.3px);
-border: 1px solid rgba(255, 255, 255, 1);
+    background: rgba(0, 118, 182,0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.3px);
+    -webkit-backdrop-filter: blur(2.3px); /* webkit for safari browser */
+    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .glass-biscuit {
     background:    rgba(243, 67, 54,0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(2.3px);
--webkit-backdrop-filter: blur(2.3px);
-border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.3px);
+    -webkit-backdrop-filter: blur(2.3px); /* webkit for safari browser */
+    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .glass-chocolate {
-    background:    rgba(139, 194, 74,0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(2.3px);
--webkit-backdrop-filter: blur(2.3px);
-border: 1px solid rgba(255, 255, 255, 1);
+    background: rgba(139, 194, 74,0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.3px);
+    -webkit-backdrop-filter: blur(2.3px); /* webkit for safari browser */
+    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .sheep-font {
