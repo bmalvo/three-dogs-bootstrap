@@ -52,7 +52,9 @@
     </nav>
 
     <!-- End navbar container -->
-
+<!-- <div class="test-box">
+  <p>test: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat numquam eaque nesciunt, qui pariatur quos error laudantium aliquid sed corrupti soluta tempora fugiat officia. Ut expedita rerum qui voluptas?</p>
+</div> -->
     <!-- Intro container -->
     <article>
       <section class="intro container">
@@ -114,41 +116,45 @@
       <div class="cloud"></div>
       <div class="cloud_two"></div>
     </article>
+    
+    <!-- Solo-dog's container -->
     <!-- sheep section -->
-    <div class="card rounded-4" style="max-width: 500px; margin: auto; margin-top: 200px;" id="sheep-solo">
-      <img
+
+    <div class="container">
+      <div class="card  dog-card col-sm-9 mx-auto" id="sheep-solo" >
+        <img
         class="card-img-top"
         src="./images/owca-solo-squosh.jpg"
-        alt="Dog named: 'Sheep'"
-      />
-      <div class="card-img-overlay" style="outline: #0076b6 solid 14px;">
-        <h2 class="title sheep-font">OWCA</h2>
-        <p class="card-text" style="background-color: rgba(250, 235, 215, 0.3)">
-          <p class="glass-sheep sheep-font"><strong 
-            >Matka i przewodnik stada. Zdecydowanie najodważniejsza z całej
-            watahy. Gra w niej pierwsze skrzypce. No, może altówkę. Przyjazna i
-            ufna. Lgnie do ludzi. Poprostu pies-przylepa. Stworzona do
-            czochrania i drapania za uszkiem. Prawdziwy lider! Czyż na taką nie
-            wygląda?</strong
-          ></p>
-        </p>
-        <a href="#galeria" class="btn btn-primary"
-          >Owca zaprasza do galerii!</a
-        >
+        alt="Dog named: 'Sheep'"/>
+        <div class="card-body card-img-overlay" style="outline: #0076b6 solid 14px;">
+          <h2 class="title sheep-font">OWCA</h2>
+          <p class="card-text glass-sheep sheep-font" style="background-color:rgba(250, 235, 215, 0.3)">
+            <strong > 
+              Matka i przewodnik stada. Zdecydowanie najodważniejsza z całej
+              watahy. Gra w niej pierwsze skrzypce. No, może altówkę. Przyjazna i
+              ufna. Lgnie do ludzi. Poprostu pies-przylepa. Stworzona do
+              czochrania i drapania za uszkiem. Prawdziwy lider! Czyż na taką nie
+              wygląda?</strong>
+            </p>
+            <a href="#galeria" class="btn btn-primary">
+              Owca zaprasza do galerii!</a>
+        </div>
       </div>
     </div>
+
     <!-- biscuit section -->
-    <div class="card rounded-4" style="max-width: 500px; margin: auto; margin-top: 200px;" id="biscuit-solo">
-      <img
+    
+    <div class="container">
+      <div class="card dog-card col-6 mx-auto" id="biscuit-solo">
+        <img
         class="card-img-top"
         src="./images/bisquit-solo-squosh.jpg"
-        alt="Dog named: 'Biszkopt'"
-      />
-      <div class="card-img-overlay" style="outline: #f34336 solid 14px;">
-        <h2
+        alt="Dog named: 'Biszkopt'"/>
+        <div class="card-img-overlay" style="outline: #f34336 solid 14px;">
+          <h2
           class="title biscuit-font"
           style="background-color: rgba(250, 235, 215, 0.3); display: inline"
-        >
+          >
           <strong>BISZKOPT</strong>
         </h2>
         <p class="card-text" style="background-color: rgba(250, 235, 215, 0.3)">
@@ -161,12 +167,13 @@
           </strong></p>
         </p>
         <a href="#galeria" class="btn" style="background-color: #f34336; color: white;"
-          >Biszkopt poleca galerię!</a
+        >Biszkopt poleca galerię!</a
         >
+        </div>
       </div>
     </div>
     <!-- chocolate section -->
-    <div class="card" style="max-width: 500px; margin: auto; margin-top: 200px;" id="chocolate-solo">
+    <div class="card dog-card col-sm-9 mx-auto"  id="chocolate-solo">
       <img
         class="card-img-top"
         src="./images/czekolada-solo-squosh.jpg"
@@ -186,6 +193,9 @@
         >
       </div>
     </div>
+  </div>
+  <!-- End solo-dog's container -->
+
     <!-- full image from gallery -->
     <div class="full-img" id="fullImgBox">
       <button id="prev" onclick="prev()"><</button>
