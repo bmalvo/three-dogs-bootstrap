@@ -15,8 +15,9 @@
 Create for friend for gaining experience and for fun purposes.<br>
 This page will be update with rising my exp and skills. Wish me luck.<br>
 Tools:<br>
-- html <br>
-- css <br>
+- HTML <br>
+- CSS <br>
+- JavaScript <br>
 - bootstrap5 <br>
 - my mind <br>
 - energetic drinks <br><hr>
