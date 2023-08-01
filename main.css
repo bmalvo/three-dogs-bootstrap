@@ -37,6 +37,21 @@ a {
     display: inline-block;
 }
 
+.animate {
+    overflow: hidden;
+    animation: 3s alternate 1 slide-right;
+}
+
+@keyframes slide-right {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
 .dog-card {
     max-width: 85%;
     margin: auto;
