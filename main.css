@@ -7,6 +7,11 @@ body {
     background-attachment: fixed;
 }
 
+.btn-group {
+    max-width: 10vh;
+    max-height: 5vh;
+}
+
 h2 {
     color: aliceblue;
     text-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);    
@@ -35,6 +40,21 @@ p {
 a {
     text-decoration: none;
     display: inline-block;
+}
+
+.animate {
+    overflow: hidden;
+    animation: 3s alternate 1 slide-right;
+}
+
+@keyframes slide-right {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
 }
 
 .dog-card {
@@ -84,6 +104,12 @@ a {
 .rotate:hover, .rotate:active {
     transform: none;
     animation: rotation 2s infinite linear;
+}
+
+.carousel-item {
+    object-fit: cover;
+    max-height: 90vh!important;
+    max-width: 100vw;
 }
 
 @keyframes rotation {

@@ -22,18 +22,9 @@
     <nav>
       <div
         class="container p-3 bg-dark text-white"
-        style="max-width: 100%">
-        <div class="row">
-          <div class="col-6">
-            <h1>Szczęśliwe Cygańskie psy</h1>
-          </div>
-          <div class="col-6">
-            <p> <!-- empty col --> </p>
-          </div>
-        </div>
+        style="max-width: 100%; max-height: 10vh;">
           <div class="row">
-
-            <div class="btn-group col-2">
+            <div class="btn-group col-4">
               <button type="button" class="btn btn-outline-warning dropdown-toggle"
               data-bs-toggle="dropdown">Nawigacja</button>
               <ul class="dropdown-menu">
@@ -44,17 +35,47 @@
                 <li><a class="dropdown-item" href="#galeria">Galeria</a></li>
               </ul>
             </div>
-            <div class="col"></div>
+            <div class="col-2"></div>
             <div class="col-6">
-              <p>Wiejskie powietrze, pola, lasy- czy potrzeba czegoś więcej, by
-                pomerdać ogonkiem?</p>
-              </div>
+              <p><pre>Szczęśliwe 
+Cygańskie Psy</pre></p>
             </div>
           </div>
         </div>
       </nav>
       
       <!-- End navbar container -->
+
+      <!-- Carusel container -->
+
+    <div class="container-fluid p-0" style="max-height: 90vh;">
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/trio-1.jpg" class="d-block w-100"  alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/trio-2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/trio-3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
       
     <!-- Intro container -->
     <article>
@@ -63,6 +84,7 @@
           <div class="col-11 mx-auto mt-2 text-center glass" ">
             <span> Za siedmioma powiatami, za siedmioma gminami..            Pośród urokliwego i malowniczego województwa Pomorskiego w najpiękniejszej (zdaniem wielu) polskiej wsi- Cygany mieszkają psy. Mieszka wiele psów, ale dzisiaj mowa o trójce rasowych kundelków pragnących podzielić się z wami odrobiną swego radosnego psiego życia.
             </span>
+            <p>"Pies, jak człowiek, jest wierny i oddany, W jego oczach miłość jest zapisana. Gdy smutny jesteś, on cię pocieszy, I zawsze przy tobie będzie trwał wiernie."</p>
           </div>
         </div>
       </section>
@@ -123,18 +145,21 @@
     <div class="separate"></div>
     <div class="container separate">
       <div class="clearfix col-sm-11 col-md-9 col-lg-7 m-auto">
+        <div class="animate">
+
           <img src="./images/owca-solo-squosh.jpg" 
-               class="col-md-6 float-md-end mb-3 ms-md-3" 
-               alt="beautifull dog on nature landscape"
-               style="width: 40%;">
-          <p class="fs-1" id="sheep-solo"><strong>Owca. </strong>
-              Matka i przewodnik stada. Zdecydowanie najodważniejsza z całej
-              watahy. Gra w niej pierwsze skrzypce. No, może altówkę. 
-              Przyjazna i ufna. Lgnie do ludzi. Poprostu pies-przylepa. 
-              Stworzona do czochrania i drapania za uszkiem. Prawdziwy lider! 
-              Czyż na taką nie wygląda?
+          class="col-md-6 float-md-end mb-3 ms-md-3" 
+          alt="beautifull dog on nature landscape"
+          style="width: 40%;">
+          <p class="fs-1 " id="sheep-solo"><strong>Owca. </strong>
+            Matka i przewodnik stada. Zdecydowanie najodważniejsza z całej
+            watahy. Gra w niej pierwsze skrzypce. No, może altówkę. 
+            Przyjazna i ufna. Lgnie do ludzi. Poprostu pies-przylepa. 
+            Stworzona do czochrania i drapania za uszkiem. Prawdziwy lider! 
+            Czyż na taką nie wygląda?
           </p><a href="#galeria" class="btn btn-primary">
-              Owca zaprasza do galerii!</a></p>
+            Owca zaprasza do galerii!</a></p>
+          </div>
         </div>
     </div>
 
